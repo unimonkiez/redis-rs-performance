@@ -1,0 +1,17 @@
+[package]
+name = "rust-sync"
+version = "0.1.0"
+edition = "2021"
+default-run = "main"
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+[[bin]]
+name = "set"
+path = "src/set.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+redis = "^0.22.3"

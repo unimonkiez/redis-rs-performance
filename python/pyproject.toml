@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "python"
+version = "0.1.0"
+description = ""
+authors = ["Yuval Saraf <unimonkiez@gmail.com>"]
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.scripts]
+start = "src.start:start"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+redis = "^4.5.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "path": "python"
+    },
+    {
+      "path": "nodejs"
+    },
+    {
+      "path": "rust-sync"
+    },
+    {
+      "path": "rust-tokio"
+    }
+  ],
+  "extensions": {
+    "recommendations": ["esbenp.prettier-vscode", "rust-lang.rust-analyzer"]
+  }
+}

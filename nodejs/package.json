@@ -1,0 +1,20 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start:release": "NODE_PATH=dist/ node ./dist/start.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.10",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "redis": "^4.6.5"
+  }
+}
